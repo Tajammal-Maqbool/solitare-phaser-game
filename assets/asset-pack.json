@@ -1,0 +1,293 @@
+{
+    "section1": {
+        "files": [
+            {
+                "url": "assets/card-back.png",
+                "type": "image",
+                "key": "card-back"
+            },
+            {
+                "url": "assets/clubs10.png",
+                "type": "image",
+                "key": "clubs10"
+            },
+            {
+                "url": "assets/clubs2.png",
+                "type": "image",
+                "key": "clubs2"
+            },
+            {
+                "url": "assets/clubs3.png",
+                "type": "image",
+                "key": "clubs3"
+            },
+            {
+                "url": "assets/clubs4.png",
+                "type": "image",
+                "key": "clubs4"
+            },
+            {
+                "url": "assets/clubs5.png",
+                "type": "image",
+                "key": "clubs5"
+            },
+            {
+                "url": "assets/clubs6.png",
+                "type": "image",
+                "key": "clubs6"
+            },
+            {
+                "url": "assets/clubs7.png",
+                "type": "image",
+                "key": "clubs7"
+            },
+            {
+                "url": "assets/clubs8.png",
+                "type": "image",
+                "key": "clubs8"
+            },
+            {
+                "url": "assets/clubs9.png",
+                "type": "image",
+                "key": "clubs9"
+            },
+            {
+                "url": "assets/clubsA.png",
+                "type": "image",
+                "key": "clubsA"
+            },
+            {
+                "url": "assets/clubsJ.png",
+                "type": "image",
+                "key": "clubsJ"
+            },
+            {
+                "url": "assets/clubsK.png",
+                "type": "image",
+                "key": "clubsK"
+            },
+            {
+                "url": "assets/clubsQ.png",
+                "type": "image",
+                "key": "clubsQ"
+            },
+            {
+                "url": "assets/diamonds10.png",
+                "type": "image",
+                "key": "diamonds10"
+            },
+            {
+                "url": "assets/diamonds2.png",
+                "type": "image",
+                "key": "diamonds2"
+            },
+            {
+                "url": "assets/diamonds3.png",
+                "type": "image",
+                "key": "diamonds3"
+            },
+            {
+                "url": "assets/diamonds4.png",
+                "type": "image",
+                "key": "diamonds4"
+            },
+            {
+                "url": "assets/diamonds5.png",
+                "type": "image",
+                "key": "diamonds5"
+            },
+            {
+                "url": "assets/diamonds6.png",
+                "type": "image",
+                "key": "diamonds6"
+            },
+            {
+                "url": "assets/diamonds7.png",
+                "type": "image",
+                "key": "diamonds7"
+            },
+            {
+                "url": "assets/diamonds8.png",
+                "type": "image",
+                "key": "diamonds8"
+            },
+            {
+                "url": "assets/diamonds9.png",
+                "type": "image",
+                "key": "diamonds9"
+            },
+            {
+                "url": "assets/diamondsA.png",
+                "type": "image",
+                "key": "diamondsA"
+            },
+            {
+                "url": "assets/diamondsJ.png",
+                "type": "image",
+                "key": "diamondsJ"
+            },
+            {
+                "url": "assets/diamondsK.png",
+                "type": "image",
+                "key": "diamondsK"
+            },
+            {
+                "url": "assets/diamondsQ.png",
+                "type": "image",
+                "key": "diamondsQ"
+            },
+            {
+                "url": "assets/dino.png",
+                "key": "dino",
+                "type": "image"
+            },
+            {
+                "url": "assets/hearts10.png",
+                "type": "image",
+                "key": "hearts10"
+            },
+            {
+                "url": "assets/hearts2.png",
+                "type": "image",
+                "key": "hearts2"
+            },
+            {
+                "url": "assets/hearts3.png",
+                "type": "image",
+                "key": "hearts3"
+            },
+            {
+                "url": "assets/hearts4.png",
+                "type": "image",
+                "key": "hearts4"
+            },
+            {
+                "url": "assets/hearts5.png",
+                "type": "image",
+                "key": "hearts5"
+            },
+            {
+                "url": "assets/hearts6.png",
+                "type": "image",
+                "key": "hearts6"
+            },
+            {
+                "url": "assets/hearts7.png",
+                "type": "image",
+                "key": "hearts7"
+            },
+            {
+                "url": "assets/hearts8.png",
+                "type": "image",
+                "key": "hearts8"
+            },
+            {
+                "url": "assets/hearts9.png",
+                "type": "image",
+                "key": "hearts9"
+            },
+            {
+                "url": "assets/heartsA.png",
+                "type": "image",
+                "key": "heartsA"
+            },
+            {
+                "url": "assets/heartsJ.png",
+                "type": "image",
+                "key": "heartsJ"
+            },
+            {
+                "url": "assets/heartsK.png",
+                "type": "image",
+                "key": "heartsK"
+            },
+            {
+                "url": "assets/heartsQ.png",
+                "type": "image",
+                "key": "heartsQ"
+            },
+            {
+                "url": "assets/placeholder.png",
+                "type": "image",
+                "key": "placeholder"
+            },
+            {
+                "url": "assets/retry.png",
+                "type": "image",
+                "key": "retry"
+            },
+            {
+                "url": "assets/spades10.png",
+                "type": "image",
+                "key": "spades10"
+            },
+            {
+                "url": "assets/spades2.png",
+                "type": "image",
+                "key": "spades2"
+            },
+            {
+                "url": "assets/spades3.png",
+                "type": "image",
+                "key": "spades3"
+            },
+            {
+                "url": "assets/spades4.png",
+                "type": "image",
+                "key": "spades4"
+            },
+            {
+                "url": "assets/spades5.png",
+                "type": "image",
+                "key": "spades5"
+            },
+            {
+                "url": "assets/spades6.png",
+                "type": "image",
+                "key": "spades6"
+            },
+            {
+                "url": "assets/spades7.png",
+                "type": "image",
+                "key": "spades7"
+            },
+            {
+                "url": "assets/spades8.png",
+                "type": "image",
+                "key": "spades8"
+            },
+            {
+                "url": "assets/spades9.png",
+                "type": "image",
+                "key": "spades9"
+            },
+            {
+                "url": "assets/spadesA.png",
+                "type": "image",
+                "key": "spadesA"
+            },
+            {
+                "url": "assets/spadesJ.png",
+                "type": "image",
+                "key": "spadesJ"
+            },
+            {
+                "url": "assets/spadesK.png",
+                "type": "image",
+                "key": "spadesK"
+            },
+            {
+                "url": "assets/spadesQ.png",
+                "type": "image",
+                "key": "spadesQ"
+            }
+        ]
+    },
+    "meta": {
+        "app": "Phaser Editor 2D - Asset Pack Editor",
+        "contentType": "phasereditor2d.pack.core.AssetContentType",
+        "url": "https://phasereditor2d.com",
+        "version": 2,
+        "showAllFilesInBlocks": false
+    }
+}

@@ -1,0 +1,143 @@
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+	<title>My Game</title>
+
+	<script src="lib/phaser.min.js"></script>
+	<script src="src/components/UserComponent.js"></script>
+	<script src="src/components/PreloadText.js"></script>
+	<script src="src/scenes/Preload.js"></script>
+	<script src="src/scenes/Level.js"></script>
+	<script src="src/main.js"></script>
+
+	<style>
+		body {
+			background: #fff;
+			margin: 0;
+			padding: 0;
+			/* padding-top: 50px; */
+		}
+
+		.top-bar {
+			background: #cfcfcf;
+			box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+			display: flex;
+		}
+
+		.button {
+			background: #cfcfcf;
+			border: 0;
+			padding: 10px 20px;
+			cursor: pointer;
+			font-size: 16px;
+		}
+
+		.button:hover {
+			background: #e6e4e4;
+		}
+
+		#options {
+			display: none;
+			position: absolute;
+			background: #dfdfdf;
+			box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+			padding: 10px;
+			margin-top: 5px;
+			border-radius: 10px;
+		}
+
+		#options .text {
+			margin: 10px 0;
+		}
+
+		#score {
+			display: none;
+			padding: 10px 20px;
+			font-size: 16px;
+		}
+	</style>
+
+</head>
+
+<body>
+	<div class="top-bar">
+		<button class="button" id="new-game-btn">New Game</button>
+		<div>
+			<button class="button" id="options-btn">Options</button>
+			<div id="options">
+				<div class="text">How many cards to turn at once?</div>
+				<button class="button" id="turn-1-btn">Turn 1</button>
+				<button class="button" id="turn-3-btn">Turn 3</button>
+				<div class="text">Display Score?</div>
+				<button class="button" id="score-btn">No Score</button>
+			</div>
+		</div>
+		<button class="button" id="undo-btn">Undo</button>
+		<span id="score">Score: 0</span>
+	</div>
+	<script>
+		let newGameBtn = document.getElementById('new-game-btn');
+		let optionsBtn = document.getElementById('options-btn');
+		let options = document.getElementById('options');
+		let turn1Btn = document.getElementById('turn-1-btn');
+		let turn3Btn = document.getElementById('turn-3-btn');
+		let scoreBtn = document.getElementById('score-btn');
+		let score = document.getElementById('score');
+		score.style.display = 'none';
+		let option = parseInt(window.localStorage.getItem('deckOption'));
+		if (option === 1) {
+			turn1Btn.style.background = '#e6e4e4';
+		} else if (option === 3) {
+			turn3Btn.style.background = '#e6e4e4';
+		} else {
+			window.localStorage.setItem('deckOption', 3);
+			turn3Btn.style.background = '#e6e4e4';
+		}
+		options.style.display = 'none';
+		newGameBtn.addEventListener('click', () => {
+			let confirm = window.confirm('Are you sure you want to start a new game?');
+			if (confirm)
+				window.location.reload();
+		});
+		optionsBtn.addEventListener('click', () => {
+			if (options.style.display === 'none') {
+				options.style.display = 'block';
+			} else {
+				options.style.display = 'none';
+			}
+		});
+		turn1Btn.addEventListener('click', () => {
+			if (option === 1) return;
+			let confirm = window.confirm('Are you sure you want to turn on?');
+			if (!confirm) return;
+			window.localStorage.setItem('deckOption', 1);
+			window.location.reload();
+		});
+		turn3Btn.addEventListener('click', () => {
+			if (option === 3) return;
+			let confirm = window.confirm('Are you sure you want to turn on?');
+			if (!confirm) return;
+			window.localStorage.setItem('deckOption', 3);
+			window.location.reload();
+		});
+		scoreBtn.addEventListener('click', () => {
+			if (score.style.display === 'none') {
+				score.style.display = 'block';
+				scoreBtn.innerHTML = 'Score';
+				scoreBtn.style.background = 'blue';
+				scoreBtn.style.color = 'white';
+			} else {
+				score.style.display = 'none';
+				scoreBtn.innerHTML = 'No Score';
+				scoreBtn.style.background = '#cfcfcf';
+				scoreBtn.style.color = 'black';
+			}
+		});
+	</script>
+</body>
+
+</html>
